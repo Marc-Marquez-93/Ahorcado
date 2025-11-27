@@ -1,4 +1,6 @@
 <script setup>
+import juegoJS from "../composables/juego.js"
+
 </script>
 
 <template>
@@ -6,3 +8,5 @@
         <h1>hola, soy juego</h1>
     </div>
 </template>
+
+<style scoped src="../styles/juego.css"></style>
