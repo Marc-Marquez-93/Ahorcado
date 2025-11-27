@@ -6,6 +6,8 @@ import tiemposJS from "../composables/categoria.js"
 <template>
     <div>
         <h1>hola, soy tiempos</h1>
+
+        <q-btn color="primary" label="inicio" to="/" /><br>
     </div>
 </template>
 

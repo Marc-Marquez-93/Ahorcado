@@ -6,6 +6,8 @@ import categoriaJS from "../composables/categoria.js"
 <template>
     <div>
         <h1>hola, soy categoria</h1>
+
+        <q-btn color="primary" label="nivel" to="/nivel" /><br>
     </div>
 </template>
 

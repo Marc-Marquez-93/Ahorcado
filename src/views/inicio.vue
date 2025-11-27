@@ -5,7 +5,9 @@ import inicioJS from "../composables/categoria.js"
 
 <template>
     <div>
-        <h1>hola, soy in</h1>
+        <h1>hola, soy inicio</h1>
+
+        <q-btn color="primary" label="categoria" to="/categoria" /><br>
     </div>
 </template>
 
