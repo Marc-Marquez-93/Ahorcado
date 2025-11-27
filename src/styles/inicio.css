@@ -16,5 +16,15 @@
     background-color: rgb(133, 119, 119, 0.8);
     border-radius: 12px;
     display: grid;
-    justify-content: center;
+    justify-items: center;
+}
+.h2r{
+    color:rgb(235, 213, 23);
+    margin: 0 30px;
+    text-align: center;
+    user-select: none;
+}
+.h2r h2{
+    font-size: 3.5em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
