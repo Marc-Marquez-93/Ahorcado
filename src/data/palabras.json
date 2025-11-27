@@ -1,0 +1,1372 @@
+{
+    "frutas": {
+        "facil": {
+            "palabras": {
+                "mango": {
+                    "pistas": [
+                        "Tiene cáscara roja o verde 🥭",
+                        "Es jugoso y dulce 😋",
+                        "Crece en climas cálidos 🌞",
+                        "Es una fruta tropical 🌴",
+                        "Se usa en jugos y postres 🍹",
+                        "Su pulpa es amarilla 💛"
+                    ],
+                    "emojis": [
+                        "🥭",
+                        "😋",
+                        "🫶"
+                    ],
+                    "victoria": "¡Felicidades! Adivinaste la palabra mango ✅",
+                    "derrota": "Uy no… ¿en serio no pudiste adivinar mango? 😭🥭"
+                },
+                "fresa": {
+                    "pistas": [
+                        "Es roja ❤️",
+                        "Tiene semillas afuera 🍓",
+                        "Es dulce y un poco ácida 😋",
+                        "Se usa en postres 🍰",
+                        "Es pequeña y suave",
+                        "A muchos les gusta con crema 🤭"
+                    ],
+                    "emojis": [
+                        "🍓",
+                        "😋",
+                        "💖"
+                    ],
+                    "victoria": "¡Muy bien! Era fresa 🍓✨",
+                    "derrota": "😭 No puede ser… ¿fresa y no la sacaste? Eso sí está grave."
+                },
+                "piña": {
+                    "pistas": [
+                        "Tiene corona 🍍",
+                        "Es amarilla por dentro 💛",
+                        "Es tropical 🌴",
+                        "Es dulce y ácida 😋",
+                        "Su cáscara es dura",
+                        "Se usa en jugos 🍹"
+                    ],
+                    "emojis": [
+                        "🍍",
+                        "😋",
+                        "👑"
+                    ],
+                    "victoria": "¡Correcto! La palabra era piña 🍍",
+                    "derrota": "¿No pudiste con una piña? 🍍💀 Ay Dios…"
+                },
+                "manzana": {
+                    "pistas": [
+                        "Puede ser roja, verde o amarilla 🍏🍎",
+                        "Es muy común",
+                        "Es crujiente",
+                        "Es dulce o ácida según la variedad",
+                        "La comen mucho en ensaladas",
+                        "Sale en muchas caricaturas"
+                    ],
+                    "emojis": [
+                        "🍎",
+                        "🍏",
+                        "😋"
+                    ],
+                    "victoria": "¡Bien! Manzana acertada 🍎",
+                    "derrota": "¿MANZANA? 😭 Hermano… eso sí fue grave."
+                },
+                "uva": {
+                    "pistas": [
+                        "Puede ser verde, morada o roja 🍇",
+                        "Viene en racimos",
+                        "Es pequeñita",
+                        "Muy jugosa",
+                        "La usan para hacer vino 🍷",
+                        "A veces vienen sin semillas"
+                    ],
+                    "emojis": [
+                        "🍇",
+                        "💜"
+                    ],
+                    "victoria": "¡Sí! Era uva 🍇",
+                    "derrota": "Perdiste… ni una uva pudiste morder 🤣"
+                }
+            }
+        },
+        "normal": {
+            "palabras": {
+                "maracuyá": {
+                    "pistas": [
+                        "Tiene muchas semillas negras",
+                        "Es muy aromática",
+                        "Su sabor es ácido",
+                        "Se usa en postres y bebidas"
+                    ],
+                    "emojis": [
+                        "🤤",
+                        "🟡",
+                        "🫶"
+                    ],
+                    "victoria": "¡Bien ahí! Era maracuyá 💛",
+                    "derrota": "No bro… maracuyá y te enredaste. Está duro eso 😭"
+                },
+                "sandía": {
+                    "pistas": [
+                        "Es muy grande",
+                        "Tiene semillas negras",
+                        "Es roja por dentro",
+                        "Es súper refrescante"
+                    ],
+                    "emojis": [
+                        "🍉",
+                        "😋",
+                        "💦"
+                    ],
+                    "victoria": "¡Yes! Sandía 🍉 bien jugado",
+                    "derrota": "¿Sandía no salió? Me retiro lentamente… 🍉🚶‍♂️"
+                },
+                "guayaba": {
+                    "pistas": [
+                        "Huele muy fuerte",
+                        "Tiene muchas semillas duras",
+                        "Puede ser rosada o blanca",
+                        "Sirve para bocadillo"
+                    ],
+                    "emojis": [
+                        "🍈",
+                        "💗"
+                    ],
+                    "victoria": "¡Crack! Era guayaba 🍈",
+                    "derrota": "Perdiste… ni el bocadillo te salvó 😭"
+                },
+                "papaya": {
+                    "pistas": [
+                        "Es grande y alargada",
+                        "Tiene muchas semillas negras",
+                        "Es muy blanda",
+                        "Se usa en jugos y desayunos"
+                    ],
+                    "emojis": [
+                        "🥭",
+                        "🧡"
+                    ],
+                    "victoria": "¡Correcto! Papaya 🧡",
+                    "derrota": "¿Papaya no pudiste? Eso sí es papayazo… pero perdido 😭"
+                },
+                "tamarindo": {
+                    "pistas": [
+                        "Su cáscara es dura",
+                        "Tiene sabor muy ácido",
+                        "Es marrón por fuera",
+                        "Se usa para bebidas"
+                    ],
+                    "emojis": [
+                        "🌰",
+                        "😖"
+                    ],
+                    "victoria": "¡Bieeen! Era tamarindo 👏",
+                    "derrota": "Fallaste tamarindo… te quedó muy ácido el resultado 😭"
+                }
+            }
+        },
+        "dificil": {
+            "palabras": {
+                "guanábana": {
+                    "pistas": [
+                        "Es grande y verde con espinas",
+                        "Pulpa blanca y fibrosa"
+                    ],
+                    "emojis": [
+                        "🤍",
+                        "🌿"
+                    ],
+                    "victoria": "¡Pff! Nivel dios: guanábana acertada 💪",
+                    "derrota": "Perdiste… pero bueno, la guanábana también está fea 😭"
+                },
+                "carambolo": {
+                    "pistas": [
+                        "Su forma parece una estrella ⭐",
+                        "Es amarilla cuando madura"
+                    ],
+                    "emojis": [
+                        "⭐",
+                        "🍋"
+                    ],
+                    "victoria": "¡Qué crack! Carambolo ⭐",
+                    "derrota": "Ni la fruta con forma de estrella pudiste 😭"
+                },
+                "kumquat": {
+                    "pistas": [
+                        "Parece una naranja mini 🍊",
+                        "Se come con cáscara"
+                    ],
+                    "emojis": [
+                        "🍊",
+                        "🟠"
+                    ],
+                    "victoria": "¡Duro! Era kumquat 🍊",
+                    "derrota": "Perdiste… igual nadie sabe pronunciarlo 😭"
+                },
+                "lulo": {
+                    "pistas": [
+                        "Fruto andino",
+                        "Pulpa naranja verdosa"
+                    ],
+                    "emojis": [
+                        "🟢",
+                        "🟠"
+                    ],
+                    "victoria": "¡Esooo! Era lulo 🔥",
+                    "derrota": "Ni el lulo pudiste. Definitivamente te falta juguito 😭"
+                },
+                "rambután": {
+                    "pistas": [
+                        "Tiene pelos rojos afuera",
+                        "Su interior es blanco brillante"
+                    ],
+                    "emojis": [
+                        "🍒",
+                        "🧠"
+                    ],
+                    "victoria": "¡Monstruo! Rambután acertado",
+                    "derrota": "Perdiste… con el rambután peludo 🤣"
+                }
+            }
+        }
+    },
+    "deportes": {
+        "facil": {
+            "palabras": {
+                "messi": {
+                    "pistas": [
+                        "Es argentino 🇦🇷",
+                        "Es considerado uno de los mejores del mundo ⚽",
+                        "Ha ganado múltiples Balones de Oro 🏆",
+                        "Ha jugado en el Barcelona",
+                        "Es zurdo",
+                        "Camina mucho antes de arrancar a jugar 👀"
+                    ],
+                    "emojis": [
+                        "⚽",
+                        "🏆",
+                        "🇦🇷"
+                    ],
+                    "victoria": "¡Crack! Era Messi, obvio ⚽👑",
+                    "derrota": "No sacaste a Messi… eso sí es tarjeta roja moral 😭"
+                },
+                "cristiano": {
+                    "pistas": [
+                        "Es portugués 🇵🇹",
+                        "Famoso por su salto enorme 🐐",
+                        "Usa el número 7",
+                        "Tiene un grito muy famoso: SIIIUUU",
+                        "Máquina física 💪",
+                        "Ha jugado en muchos equipos grandes"
+                    ],
+                    "emojis": [
+                        "⚽",
+                        "💪",
+                        "🇵🇹"
+                    ],
+                    "victoria": "¡Bien! Cristiano acertado 🐐",
+                    "derrota": "¿Cristiano no? Ni el siiuuu te iluminó 😭"
+                },
+                "neymar": {
+                    "pistas": [
+                        "Es brasileño 🇧🇷",
+                        "Muy habilidoso con el balón",
+                        "Le gusta hacer sombreritos 🎩",
+                        "Ha jugado en Barcelona y PSG",
+                        "Número 10",
+                        "Famoso por sus caídas dramáticas 🤕"
+                    ],
+                    "emojis": [
+                        "⚽",
+                        "🇧🇷",
+                        "😎"
+                    ],
+                    "victoria": "¡Eso! Era Neymar 🇧🇷",
+                    "derrota": "Perdiste… Neymar se tiró pero tú caíste peor 😭"
+                },
+                "james": {
+                    "pistas": [
+                        "Es colombiano 🇨🇴",
+                        "Zurdo con gran pegada",
+                        "Brilló en un mundial",
+                        "Famoso por su gol de volea",
+                        "Ha jugado en Real Madrid",
+                        "También le dicen '10' ✨"
+                    ],
+                    "emojis": [
+                        "🇨🇴",
+                        "⚽",
+                        "✨"
+                    ],
+                    "victoria": "¡Correcto! Era James 💛💙❤️",
+                    "derrota": "¿James? Nooo hermano… eso sí dolió 🇨🇴😢"
+                },
+                "serena_williams": {
+                    "pistas": [
+                        "Leyenda del tenis 🎾",
+                        "Una de las atletas más dominantes",
+                        "Tiene muchas hermanas tenistas",
+                        "Ha ganado más de 20 Grand Slams",
+                        "Su saque es brutal 💥",
+                        "Siempre juega con intensidad"
+                    ],
+                    "emojis": [
+                        "🎾",
+                        "🏆",
+                        "🔥"
+                    ],
+                    "victoria": "¡Bien! Serena Williams acertada 🎾",
+                    "derrota": "Fallaste a Serena… ni modo, game over 😭"
+                }
+            }
+        },
+        "normal": {
+            "palabras": {
+                "juan pablo montoya": {
+                    "pistas": [
+                        "Es colombiano 🇨🇴",
+                        "Corredor de automovilismo",
+                        "Ganó en la F1 y en IndyCar",
+                        "Muy famoso en los 2000"
+                    ],
+                    "emojis": [
+                        "🏎️",
+                        "🇨🇴"
+                    ],
+                    "victoria": "¡Bien ahí! Era Juan Pablo Montoya 🏎️",
+                    "derrota": "No… ¿Montoya tampoco? Te estrellaste solito 😭"
+                },
+                "rafael nadal": {
+                    "pistas": [
+                        "Es español 🇪🇸",
+                        "Dominante en arcilla",
+                        "Le dicen 'El Rey de Roland Garros'",
+                        "Tiene un estilo muy físico"
+                    ],
+                    "emojis": [
+                        "🎾",
+                        "🔥",
+                        "🇪🇸"
+                    ],
+                    "victoria": "¡Crack! Nadal era 🎾",
+                    "derrota": "Perder con Nadal… eso sí te dejó en polvo de ladrillo 😭"
+                },
+                "stephen curry": {
+                    "pistas": [
+                        "Jugador de la NBA 🏀",
+                        "Famoso por los triples",
+                        "Revolucionó el juego",
+                        "Juega en Golden State"
+                    ],
+                    "emojis": [
+                        "🏀",
+                        "💛",
+                        "🔥"
+                    ],
+                    "victoria": "¡Bien! Era Curry 🏀",
+                    "derrota": "No le atinaste ni de tres metros… 😭"
+                },
+                "naomi osaka": {
+                    "pistas": [
+                        "Tenista japonesa 🇯🇵",
+                        "Ha ganado varios Grand Slams",
+                        "Es muy tranquila y seria",
+                        "Gran potencia en su saque"
+                    ],
+                    "emojis": [
+                        "🎾",
+                        "🇯🇵"
+                    ],
+                    "victoria": "¡Correcto! Osaka 🎾",
+                    "derrota": "Fallaste Osaka… doble falta emocional 😭"
+                },
+                "ronaldinho": {
+                    "pistas": [
+                        "Es brasileño 🇧🇷",
+                        "Sonrisa eterna",
+                        "Habilidad y magia pura ✨",
+                        "Jugó en Barcelona"
+                    ],
+                    "emojis": [
+                        "⚽",
+                        "✨",
+                        "🇧🇷"
+                    ],
+                    "victoria": "¡Qué belleza! Era Ronaldinho ✨",
+                    "derrota": "¿Ronaldiño? No mano… eso sí fue duro 😭"
+                }
+            }
+        },
+        "dificil": {
+            "palabras": {
+                "max verstappen": {
+                    "pistas": [
+                        "Piloto de F1",
+                        "Corre para Red Bull"
+                    ],
+                    "emojis": [
+                        "🏎️",
+                        "🔥"
+                    ],
+                    "victoria": "¡Ufff nivel dios! Verstappen acertado 🏎️",
+                    "derrota": "Fallaste… Max te pasó por encima 😭"
+                },
+                "simone biles": {
+                    "pistas": [
+                        "Gimnasta estadounidense",
+                        "Considerada la mejor de la historia"
+                    ],
+                    "emojis": [
+                        "🤸‍♀️",
+                        "🏆"
+                    ],
+                    "victoria": "¡Increíble! Era Simone Biles 🤸‍♀️",
+                    "derrota": "Perdiste… Biles hizo piruetas y tú te caíste 😭"
+                },
+                "marta vieira": {
+                    "pistas": [
+                        "Futbolista brasileña 🇧🇷",
+                        "Máxima goleadora en mundiales"
+                    ],
+                    "emojis": [
+                        "⚽",
+                        "🇧🇷"
+                    ],
+                    "victoria": "¡Bien! Era Marta ⚽",
+                    "derrota": "¿Ni Marta? Te hicieron sombrero 😭"
+                },
+                "roger federer": {
+                    "pistas": [
+                        "Tenista suizo 🇨🇭",
+                        "Elegancia pura"
+                    ],
+                    "emojis": [
+                        "🎾",
+                        "🇨🇭"
+                    ],
+                    "victoria": "¡Duro! Federer logrado 🎾",
+                    "derrota": "Fallaste a Federer… error no forzado grave 😭"
+                },
+                "michael phelps": {
+                    "pistas": [
+                        "Nadador estadounidense",
+                        "El más ganador de la historia olímpica 🏅"
+                    ],
+                    "emojis": [
+                        "🏊‍♂️",
+                        "🏅"
+                    ],
+                    "victoria": "¡Crack! Era Phelps 🏊‍♂️",
+                    "derrota": "Te ahogaste intentando adivinar 😭"
+                }
+            }
+        }
+    },
+    "animales": {
+        "facil": {
+            "palabras": {
+                "perro": {
+                    "pistas": [
+                        "Es el mejor amigo del hombre 🐶",
+                        "Ladra mucho",
+                        "Le encanta jugar",
+                        "Tiene hocico húmedo",
+                        "Es una mascota muy común",
+                        "Tiene muchas razas distintas"
+                    ],
+                    "emojis": [
+                        "🐶",
+                        "🦴",
+                        "❤️"
+                    ],
+                    "victoria": "¡Bien ahí! Era perro 🐶",
+                    "derrota": "¿Perro? 😭 Bro… si hasta los bebés lo saben."
+                },
+                "gato": {
+                    "pistas": [
+                        "Le gusta dormir mucho 😴",
+                        "Hace ‘miau’",
+                        "Salta muy alto",
+                        "Es muy independiente",
+                        "Le encanta perseguir luces",
+                        "A veces te ignora por deporte"
+                    ],
+                    "emojis": [
+                        "🐱",
+                        "✨",
+                        "😼"
+                    ],
+                    "victoria": "¡Correcto! Era gato 🐱",
+                    "derrota": "No adivinaste gato… ni él te hubiera perdonado 😹"
+                },
+                "vaca": {
+                    "pistas": [
+                        "Hace muu 🐄",
+                        "Da leche",
+                        "Tiene manchas blancas y negras",
+                        "Vive en el campo",
+                        "Es grande",
+                        "Come pasto todo el día"
+                    ],
+                    "emojis": [
+                        "🐄",
+                        "🥛",
+                        "🌿"
+                    ],
+                    "victoria": "¡Exacto! Era vaca 🐄",
+                    "derrota": "¿Vaca no salió? 🥛💀 Eso sí estuvo feo."
+                },
+                "pez": {
+                    "pistas": [
+                        "Vive en el agua 🐟",
+                        "Respira por branquias",
+                        "Tiene aletas",
+                        "Nada para todos lados",
+                        "No hace sonidos audibles",
+                        "Tiene escamas"
+                    ],
+                    "emojis": [
+                        "🐟",
+                        "💧",
+                        "🌊"
+                    ],
+                    "victoria": "¡Bien hecho! Era pez 🐟",
+                    "derrota": "Fallaste pez… bro, literal era un pez 😂"
+                },
+                "conejo": {
+                    "pistas": [
+                        "Tiene orejas largas 🐰",
+                        "Salta mucho",
+                        "Come zanahorias",
+                        "Es suavecito",
+                        "Corre muy rápido",
+                        "Es muy tierno"
+                    ],
+                    "emojis": [
+                        "🐰",
+                        "🥕",
+                        "🤍"
+                    ],
+                    "victoria": "¡Correcto! Era conejo 🐰",
+                    "derrota": "¿Conejo no salió? Te saltaste la respuesta 😭"
+                }
+            }
+        },
+        "normal": {
+            "palabras": {
+                "zorro": {
+                    "pistas": [
+                        "Es muy astuto",
+                        "Tiene cola grande y peluda",
+                        "Es naranja",
+                        "Aparece mucho en cuentos"
+                    ],
+                    "emojis": [
+                        "🦊",
+                        "🔥"
+                    ],
+                    "victoria": "¡Crack! Era zorro 🦊",
+                    "derrota": "Fallaste zorro… te engañó como siempre 🤣"
+                },
+                "tortuga": {
+                    "pistas": [
+                        "Tiene caparazón 🐢",
+                        "Es muy lenta",
+                        "Puede vivir muchos años",
+                        "A veces vive en agua"
+                    ],
+                    "emojis": [
+                        "🐢",
+                        "🟢"
+                    ],
+                    "victoria": "¡Bien jugado! Era tortuga 🐢",
+                    "derrota": "Ni la tortuga tan lenta pudiste alcanzar 😭"
+                },
+                "búho": {
+                    "pistas": [
+                        "Es nocturno 🦉",
+                        "Tiene ojos grandes",
+                        "Gira mucho la cabeza",
+                        "Hace ‘uuuh uuuh’"
+                    ],
+                    "emojis": [
+                        "🦉",
+                        "🌙"
+                    ],
+                    "victoria": "¡Muy bien! Era búho 🦉",
+                    "derrota": "No pudiste búho… parece que no viste nada 😭"
+                },
+                "camello": {
+                    "pistas": [
+                        "Tiene jorobas",
+                        "Vive en el desierto",
+                        "Puede aguantar mucho sin agua",
+                        "Es muy resistente"
+                    ],
+                    "emojis": [
+                        "🐪",
+                        "🌵"
+                    ],
+                    "victoria": "¡Esooo! Camello acertado 🐪",
+                    "derrota": "Fallaste camello… te faltó agua parece 😭"
+                },
+                "mapache": {
+                    "pistas": [
+                        "Tiene antifaz natural 🦝",
+                        "Es muy curioso",
+                        "A veces revisa basureros",
+                        "Es gris con cola anillada"
+                    ],
+                    "emojis": [
+                        "🦝",
+                        "🧤"
+                    ],
+                    "victoria": "¡Perfecto! Era mapache 🦝",
+                    "derrota": "Perdiste… ni el mapache pudo robarte una pista 😭"
+                }
+            }
+        },
+        "dificil": {
+            "palabras": {
+                "ornitorrinco": {
+                    "pistas": [
+                        "Tiene pico de pato y no lo conoce doofenshmirtz",
+                        "Pone huevos aunque es mamífero"
+                    ],
+                    "emojis": [
+                        "🦆",
+                        "🟫"
+                    ],
+                    "victoria": "¡INCREÍBLE! Ornitorrinco acertado 👏",
+                    "derrota": "¿Ornitorrinco no pudiste? Bueno… es rarísimo, te perdono 😭"
+                },
+                "axolote": {
+                    "pistas": [
+                        "Es un anfibio mexicano",
+                        "Tiene ‘branquias’ como plumas en la cabeza"
+                    ],
+                    "emojis": [
+                        "🌸",
+                        "🐾"
+                    ],
+                    "victoria": "¡Durísimo! Era axolote 🩷",
+                    "derrota": "Fallaste axolote… eso sí estuvo raro como él 😭"
+                },
+                "okapi": {
+                    "pistas": [
+                        "Parece mezcla de cebra y jirafa",
+                        "Vive en África"
+                    ],
+                    "emojis": [
+                        "🦓",
+                        "🦒"
+                    ],
+                    "victoria": "¡Qué nivel! Era okapi 🔥",
+                    "derrota": "Ni el okapi que nadie conoce adivinaste 😭"
+                },
+                "narval": {
+                    "pistas": [
+                        "Tiene un colmillo largo como un unicornio",
+                        "Vive en aguas heladas"
+                    ],
+                    "emojis": [
+                        "🦄",
+                        "❄️"
+                    ],
+                    "victoria": "¡Pro! Narval acertado 🐋",
+                    "derrota": "Fallaste narval… ni el unicornio del mar te iluminó 😭"
+                },
+                "quokka": {
+                    "pistas": [
+                        "Es conocido como el ‘animal más feliz’",
+                        "Vive en Australia"
+                    ],
+                    "emojis": [
+                        "😊",
+                        "🦘"
+                    ],
+                    "victoria": "¡Master! Era quokka 😄",
+                    "derrota": "Quokka perdido… ni la alegría te ayudó 😭"
+                }
+            }
+        }
+    },
+    "fisica": {
+        "facil": {
+            "palabras": {
+                "einstein": {
+                    "pistas": [
+                        "Es uno de los científicos más famosos del mundo 🧠",
+                        "Tenía el cabello muy desordenado 🤯",
+                        "Formuló la teoría de la relatividad",
+                        "Su apellido empieza por 'E'",
+                        "Aparece mucho en memes 🤓",
+                        "Es sinónimo de genio 👨‍🔬"
+                    ],
+                    "emojis": [
+                        "🧠",
+                        "🤯",
+                        "👨‍🔬"
+                    ],
+                    "victoria": "¡Exacto! Era Einstein, crack de la relatividad 😎",
+                    "derrota": "Bro… ¿ni Einstein? Eso sí está grave 😭"
+                },
+                "gravedad": {
+                    "pistas": [
+                        "Hace que todo caiga hacia el suelo 🌍",
+                        "La sientes todos los días sin querer",
+                        "Es invisible 👻",
+                        "Newton la estudió",
+                        "Si no existiera, estarías flotando",
+                        "Es una fuerza"
+                    ],
+                    "emojis": [
+                        "🌍",
+                        "⬇️",
+                        "🍎"
+                    ],
+                    "victoria": "¡Correcto! Era gravedad 🌍",
+                    "derrota": "¿Cómo vas a perder con la gravedad? Si te tira al piso todos los días 😭"
+                },
+                "energia": {
+                    "pistas": [
+                        "Se mide en Joules ⚡",
+                        "Es necesaria para que todo funcione",
+                        "Puede ser cinética o potencial",
+                        "No se crea ni se destruye",
+                        "Solo se transforma",
+                        "La usas hasta para levantar un vaso 😅"
+                    ],
+                    "emojis": [
+                        "⚡",
+                        "🔋"
+                    ],
+                    "victoria": "¡Bien! Era energía ⚡",
+                    "derrota": "Ufff… sin energía tú y sin energía mental para adivinar 😭"
+                },
+                "newton": {
+                    "pistas": [
+                        "Un científico muy famoso 🍎",
+                        "Le cayó una manzana… supuestamente",
+                        "Tiene 3 leyes del movimiento",
+                        "Unidad de fuerza lleva su apellido",
+                        "Vivió en Inglaterra",
+                        "Su nombre empieza por 'N'"
+                    ],
+                    "emojis": [
+                        "🍎",
+                        "📘"
+                    ],
+                    "victoria": "¡Sí! Era Newton 🍎",
+                    "derrota": "Perdiste… Newton te está mirando desde el más allá 😭"
+                },
+                "fuerza": {
+                    "pistas": [
+                        "Puede empujar o jalar",
+                        "Se mide en Newtons",
+                        "Está en todo movimiento",
+                        "Necesitas una para levantar algo",
+                        "Sin ella nada se mueve",
+                        "Tiene magnitud y dirección"
+                    ],
+                    "emojis": [
+                        "💪",
+                        "➡️"
+                    ],
+                    "victoria": "¡Correcto! Era fuerza 💪",
+                    "derrota": "Uy no… ni la fuerza te ayudó 😭"
+                }
+            }
+        },
+        "normal": {
+            "palabras": {
+                "ohm": {
+                    "pistas": [
+                        "Es una unidad eléctrica",
+                        "Se relaciona con la resistencia",
+                        "Tiene el símbolo Ω",
+                        "Se usa en circuitos"
+                    ],
+                    "emojis": [
+                        "Ω",
+                        "⚡"
+                    ],
+                    "victoria": "¡Nice! Era ohm ⚡",
+                    "derrota": "Perdiste… te faltaron unos cuantos Ω de inteligencia 😭"
+                },
+                "torricelli": {
+                    "pistas": [
+                        "Fue un físico italiano",
+                        "Trabajó con presión atmosférica",
+                        "Inventó el barómetro",
+                        "Su nombre empieza por T"
+                    ],
+                    "emojis": [
+                        "🌡️",
+                        "📏"
+                    ],
+                    "victoria": "¡Bien ahí! Era Torricelli 👏",
+                    "derrota": "¿Torricelli no te salió? Respira hondo… ¿ves? Eso es presión 😭"
+                },
+                "segunda ley de newton": {
+                    "pistas": [
+                        "Relaciona fuerza, masa y aceleración",
+                        "F = m × a",
+                        "Es parte de un conjunto de 3 leyes",
+                        "Describe cómo cambia el movimiento"
+                    ],
+                    "emojis": [
+                        "📘",
+                        "✖️"
+                    ],
+                    "victoria": "¡Correcto! Segunda ley de Newton 🧠",
+                    "derrota": "Ni la segunda ley… te faltó aceleración mental 😭"
+                },
+                "voltaje": {
+                    "pistas": [
+                        "Se mide en voltios",
+                        "Impulsa la corriente eléctrica",
+                        "Es como 'la presión' de la electricidad",
+                        "Tiene símbolo V"
+                    ],
+                    "emojis": [
+                        "⚡",
+                        "🔌"
+                    ],
+                    "victoria": "¡Bien! Era voltaje ⚡",
+                    "derrota": "Vaya… sin voltaje y sin energía para adivinar 😭"
+                },
+                "momento": {
+                    "pistas": [
+                        "Se relaciona con fuerzas que giran",
+                        "También llamado torque",
+                        "Depende de la distancia al eje",
+                        "Gira cosas como llaves o tuercas"
+                    ],
+                    "emojis": [
+                        "🌀",
+                        "🔧"
+                    ],
+                    "victoria": "¡Eso! Momento (torque) 🔧",
+                    "derrota": "Fallaste el momento… y el momento fue este 😭"
+                }
+            }
+        },
+        "dificil": {
+            "palabras": {
+                "heisenberg": {
+                    "pistas": [
+                        "Creador del principio de incertidumbre",
+                        "Figura clave de la mecánica cuántica"
+                    ],
+                    "emojis": [
+                        "🔬",
+                        "⚛️"
+                    ],
+                    "victoria": "¡Durísimo! Era Heisenberg ⚛️",
+                    "derrota": "Perdiste… incierto como el principio de Heisenberg 😭"
+                },
+                "entropia": {
+                    "pistas": [
+                        "Mide el desorden de un sistema",
+                        "Siempre aumenta"
+                    ],
+                    "emojis": [
+                        "🔥",
+                        "📈"
+                    ],
+                    "victoria": "¡Crack! Entropía acertada 🔥",
+                    "derrota": "F por ti… tu entropía mental aumentó demasiado 😭"
+                },
+                "lagrangiano": {
+                    "pistas": [
+                        "Función utilizada en mecánica analítica",
+                        "Involucra energía cinética y potencial"
+                    ],
+                    "emojis": [
+                        "📘",
+                        "🧮"
+                    ],
+                    "victoria": "¡Eres un monstruo! Era el lagrangiano 😎",
+                    "derrota": "Ni el lagrangiano pudiste… eso sí es complejo 😭"
+                },
+                "superposicion cuantica": {
+                    "pistas": [
+                        "Un objeto puede estar en varios estados a la vez",
+                        "Es un concepto fundamental de la cuántica"
+                    ],
+                    "emojis": [
+                        "⚛️",
+                        "🔮"
+                    ],
+                    "victoria": "¡Wow! Superposición cuántica acertada!",
+                    "derrota": "Perdiste… estás en superposición entre 'no sé' y 'menos sé' 😭"
+                },
+                "relatividad general": {
+                    "pistas": [
+                        "Explica la gravedad con curvatura del espacio-tiempo",
+                        "Fue propuesta por Einstein"
+                    ],
+                    "emojis": [
+                        "🌌",
+                        "🌀"
+                    ],
+                    "victoria": "¡Máquina! Relatividad general 💫",
+                    "derrota": "Ni la relatividad general te salvó… espacio y tiempo perdidos 😭"
+                }
+            }
+        }
+    },
+    "canciones": {
+        "facil": {
+            "palabras": {
+                "gasolina": {
+                    "pistas": [
+                        "Es un clásico del reggaetón 🎶",
+                        "La canta Daddy Yankee",
+                        "Dice “¡Dame más gasolina!”",
+                        "Fue un éxito mundial",
+                        "La ponen en todas las fiestas 🔥",
+                        "Es imposible no reconocerla"
+                    ],
+                    "emojis": [
+                        "🔥",
+                        "🎤",
+                        "🎵"
+                    ],
+                    "victoria": "¡Esooo! Gasolina, un clásico 🔥",
+                    "derrota": "¿Gasolina no la sacaste? 😭 Eso sí es grave."
+                },
+                "despacito": {
+                    "pistas": [
+                        "Fue una de las canciones más escuchadas del mundo 🌎",
+                        "La canta Luis Fonsi con Daddy Yankee",
+                        "Tuvo remix con Justin Bieber",
+                        "Empieza suavecito 😏",
+                        "Es reggaetón-pop",
+                        "Tiene un ritmo pegajoso"
+                    ],
+                    "emojis": [
+                        "🎶",
+                        "🌊",
+                        "💃"
+                    ],
+                    "victoria": "¡Correcto! Despacito 🎶",
+                    "derrota": "BRO… ¿ni despacito? 😭"
+                },
+                "felices los 4": {
+                    "pistas": [
+                        "La canta Maluma 🎤",
+                        "Habla de una relación abierta 😏",
+                        "Tuvo remix con Marc Anthony",
+                        "Fue muy viral",
+                        "Es reggaetón/pop",
+                        "Tiene un ritmo suave"
+                    ],
+                    "emojis": [
+                        "💃",
+                        "🔥"
+                    ],
+                    "victoria": "¡Muy bien! Felices los 4 💃",
+                    "derrota": "¿Felices los 4 y no acertaste? Triste por ti 😭"
+                },
+                "propuesta indecente": {
+                    "pistas": [
+                        "Es de Romeo Santos 💜",
+                        "Empieza con “¿Quién te manda a llamar?”",
+                        "Tiene mezcla de bachata y pop",
+                        "Fue un éxito mundial",
+                        "Habla de una invitación atrevida 😏",
+                        "Muy sonada en fiestas latinas"
+                    ],
+                    "emojis": [
+                        "💜",
+                        "🎶",
+                        "😘"
+                    ],
+                    "victoria": "¡Sí! Propuesta Indecente 😘",
+                    "derrota": "Ni Romeo te inspiró… qué dolor 😭"
+                },
+                "mi gente": {
+                    "pistas": [
+                        "La canta J Balvin",
+                        "Dice “si el ritmo te lleva a mover la cabeza”",
+                        "Muy usada en fiestas 🔥",
+                        "Tiene un ritmo electrónico",
+                        "Fue tendencia mundial",
+                        "Colombian power 🇨🇴"
+                    ],
+                    "emojis": [
+                        "🔥",
+                        "🎵",
+                        "🇨🇴"
+                    ],
+                    "victoria": "¡Exacto! Mi Gente 🔥",
+                    "derrota": "¿Mi gente no la viste venir? 😭"
+                }
+            }
+        },
+        "normal": {
+            "palabras": {
+                "cactus": {
+                    "pistas": [
+                        "Es una canción de Cerati",
+                        "Tiene un sonido suave y elegante",
+                        "Habla de algo que crece y permanece",
+                        "Es una de sus canciones populares"
+                    ],
+                    "emojis": [
+                        "🌵",
+                        "🎸"
+                    ],
+                    "victoria": "¡Crack! Adivinaste 'Cactus' 🌵",
+                    "derrota": "¿Cactus? 😭 Cerati debe estar decepcionado."
+                },
+                "persiana americana": {
+                    "pistas": [
+                        "Es de Soda Stereo",
+                        "Muy icónica del rock en español",
+                        "Canta Gustavo Cerati",
+                        "Tiene un ritmo ochentero"
+                    ],
+                    "emojis": [
+                        "🎸",
+                        "💿"
+                    ],
+                    "victoria": "¡Crack! Persiana Americana 🎸",
+                    "derrota": "Ni Cerati te salvó esta vez 😭"
+                },
+                "vivir mi vida": {
+                    "pistas": [
+                        "Es de Marc Anthony",
+                        "Muy famosa en fiestas",
+                        "Basada en una canción árabe",
+                        "Habla de superar momentos difíciles"
+                    ],
+                    "emojis": [
+                        "💃",
+                        "🥁"
+                    ],
+                    "victoria": "¡Esooo! Vivir Mi Vida 💃",
+                    "derrota": "Ni Marc Anthony te pudo ayudar 😭"
+                },
+                "la rebelión": {
+                    "pistas": [
+                        "Clásico de Joe Arroyo",
+                        "Muy famosa en Colombia",
+                        "Habla de un esclavo y su esposa",
+                        "Tiene ritmo de salsa con tambora"
+                    ],
+                    "emojis": [
+                        "🥁",
+                        "💥"
+                    ],
+                    "victoria": "¡Correcto! La Rebelión 🥁",
+                    "derrota": "Fallaste La Rebelión… Joe Arroyo está decepcionado 😭"
+                },
+                "caraluna": {
+                    "pistas": [
+                        "La canta Bacilos",
+                        "Muy sonada en los 2000",
+                        "Es pop latino",
+                        "Habla de amor melancólico"
+                    ],
+                    "emojis": [
+                        "🌙",
+                        "💛"
+                    ],
+                    "victoria": "¡Bien! Caraluna 🌙",
+                    "derrota": "Caraluna y no pudiste… qué noche 😭"
+                }
+            }
+        },
+        "dificil": {
+            "palabras": {
+                "welcome to my crib": {
+                    "pistas": [
+                        "Es reggaetón moderno",
+                        "Tiene un ritmo oscuro y urbano"
+                    ],
+                    "emojis": [
+                        "🏠",
+                        "🔥"
+                    ],
+                    "victoria": "¡Uf! Welcome to my Crib 💥",
+                    "derrota": "Ni “Welcome to my crib”… qué dolor 😭"
+                },
+                "corazón delator": {
+                    "pistas": [
+                        "Es de Soda Stereo",
+                        "Tiene un ambiente muy emocional"
+                    ],
+                    "emojis": [
+                        "🖤",
+                        "🎸"
+                    ],
+                    "victoria": "¡Wow! Corazón Delator acertado 🎸",
+                    "derrota": "Te delató… tu falta de puntería 😭"
+                },
+                "amorfoda": {
+                    "pistas": [
+                        "La canta Bad Bunny",
+                        "Es una balada triste"
+                    ],
+                    "emojis": [
+                        "💔",
+                        "🐇"
+                    ],
+                    "victoria": "¡Exacto! Amorfoda 💔",
+                    "derrota": "Fallaste Amorfoda… te dejó igual que la canción 😭"
+                },
+                "en la ciudad de la furia": {
+                    "pistas": [
+                        "Rock argentino",
+                        "Uno de los temas más épicos de Cerati"
+                    ],
+                    "emojis": [
+                        "🌌",
+                        "🎸"
+                    ],
+                    "victoria": "¡Crack! Ciudad de la Furia 🎸",
+                    "derrota": "Perdiste en la ciudad… pero sin furia, solo tristeza 😭"
+                },
+                "flor": {
+                    "pistas": [
+                        "Es una canción de Gustavo Cerati",
+                        "Su letra es poética y suave"
+                    ],
+                    "emojis": [
+                        "🌸",
+                        "🎤"
+                    ],
+                    "victoria": "¡Grande! 'Flor' acertada 🌸",
+                    "derrota": "¿Flor no te salió? 🌸😭 No puedo contigo."
+                }
+            }
+        }
+    },
+    "paises": {
+        "facil": {
+            "palabras": {
+                "colombia": {
+                    "pistas": [
+                        "Su bandera es amarilla, azul y roja 🇨🇴",
+                        "Está en Sudamérica",
+                        "Famosa por su café ☕",
+                        "Tiene costa en dos océanos 🌊",
+                        "Su capital es Bogotá",
+                        "La arepa es casi religión 🤭"
+                    ],
+                    "emojis": [
+                        "🇨🇴",
+                        "☕",
+                        "🌄"
+                    ],
+                    "victoria": "¡Crack! Era Colombia 🇨🇴",
+                    "derrota": "No… ¿en serio no sacaste Colombia? Eso sí fue doloroso 😭"
+                },
+                "mexico": {
+                    "pistas": [
+                        "Su bandera tiene un águila 🦅",
+                        "Famoso por el picante 🌶️",
+                        "Tiene playas muy turísticas",
+                        "Su capital tiene el mismo nombre",
+                        "Es hogar de los mariachis 🎺",
+                        "La comida es mundialmente conocida"
+                    ],
+                    "emojis": [
+                        "🇲🇽",
+                        "🌶️"
+                    ],
+                    "victoria": "¡Ándale! Era México 🇲🇽",
+                    "derrota": "¿México no lo adivinaste? Ay papá… 😭🌶️"
+                },
+                "brasil": {
+                    "pistas": [
+                        "Su bandera es verde y amarilla 🇧🇷",
+                        "Famoso por el carnaval 🎉",
+                        "Tiene el Amazonas 🌳",
+                        "El fútbol es casi religión ⚽",
+                        "Hablan portugués",
+                        "Cristo Redentor está allí ✝️"
+                    ],
+                    "emojis": [
+                        "🇧🇷",
+                        "⚽"
+                    ],
+                    "victoria": "¡Boa! Era Brasil 🇧🇷",
+                    "derrota": "Fallaste Brasil… ni Pelé te perdona 😭"
+                },
+                "españa": {
+                    "pistas": [
+                        "Está en Europa",
+                        "Hablan español",
+                        "Famosa por la paella",
+                        "Tiene muchas islas",
+                        "Su capital es Madrid",
+                        "Tienen acento sabroso 🇪🇸"
+                    ],
+                    "emojis": [
+                        "🇪🇸",
+                        "🥘"
+                    ],
+                    "victoria": "¡Ole! Era España 🇪🇸",
+                    "derrota": "¿España no? Madre mía tío… fatal 😭"
+                },
+                "japon": {
+                    "pistas": [
+                        "Es una isla en Asia 🗾",
+                        "Famoso por el anime 📺",
+                        "Tiene tecnología avanzada",
+                        "Su bandera es un círculo rojo",
+                        "Cuna del sushi 🍣",
+                        "Su capital es Tokio"
+                    ],
+                    "emojis": [
+                        "🇯🇵",
+                        "🍣"
+                    ],
+                    "victoria": "¡Yatta! Era Japón 🇯🇵",
+                    "derrota": "¿Japón? Bro, ni Naruto te salva 😭"
+                }
+            }
+        },
+        "normal": {
+            "palabras": {
+                "portugal": {
+                    "pistas": [
+                        "Está en Europa",
+                        "Hablan portugués",
+                        "Cuna de grandes navegantes",
+                        "Cristiano Ronaldo nació allí ⚽"
+                    ],
+                    "emojis": [
+                        "🇵🇹",
+                        "⚽"
+                    ],
+                    "victoria": "¡Bien! Era Portugal 🇵🇹",
+                    "derrota": "¿Portugal no te salió? Ni CR7 te puede ayudar 😭"
+                },
+                "egipto": {
+                    "pistas": [
+                        "Tiene pirámides 🏜️",
+                        "Está en África",
+                        "El río Nilo lo atraviesa",
+                        "Su capital es El Cairo"
+                    ],
+                    "emojis": [
+                        "🇪🇬",
+                        "🏺"
+                    ],
+                    "victoria": "¡Excelente! Egipto 🇪🇬",
+                    "derrota": "Fallaste Egipto… se te cayó la pirámide encima 😭"
+                },
+                "australia": {
+                    "pistas": [
+                        "Está rodeado de océanos 🌊",
+                        "Tiene canguros 🦘",
+                        "Famoso por la Gran Barrera de Coral",
+                        "Hablan inglés"
+                    ],
+                    "emojis": [
+                        "🇦🇺",
+                        "🦘"
+                    ],
+                    "victoria": "¡Bárbaro! Australia 🇦🇺",
+                    "derrota": "Australia no… te dio miedo el canguro 😭"
+                },
+                "noruega": {
+                    "pistas": [
+                        "Tiene fiordos impresionantes 🌄",
+                        "Está en el norte de Europa",
+                        "Muy frío ❄️",
+                        "Es uno de los países más felices del mundo"
+                    ],
+                    "emojis": [
+                        "🇳🇴",
+                        "❄️"
+                    ],
+                    "victoria": "¡Bien pensado! Noruega 🇳🇴",
+                    "derrota": "Fallaste Noruega… y eso que está brillando en la pista 😭"
+                },
+                "india": {
+                    "pistas": [
+                        "Tiene más de mil millones de habitantes 🧑‍🤝‍🧑",
+                        "Hacen películas de Bollywood 🎬",
+                        "Cuna del curry y muchas especias",
+                        "El Taj Mahal está allí 🕌"
+                    ],
+                    "emojis": [
+                        "🇮🇳",
+                        "🕌"
+                    ],
+                    "victoria": "¡Correcto! Era India 🇮🇳",
+                    "derrota": "Ni India sacaste… eso sí es otro nivel 😭"
+                }
+            }
+        },
+        "dificil": {
+            "palabras": {
+                "kazajistan": {
+                    "pistas": [
+                        "Es el país más grande de Asia Central",
+                        "Su nombre termina en 'stán'"
+                    ],
+                    "emojis": [
+                        "🇰🇿",
+                        "🌍"
+                    ],
+                    "victoria": "¡Dios! Sacaste Kazajistán 😳",
+                    "derrota": "Perdiste… Kazajistán te dio un golpe geográfico 😭"
+                },
+                "uzbekistan": {
+                    "pistas": [
+                        "No tiene salida al mar",
+                        "Su capital es Taskent"
+                    ],
+                    "emojis": [
+                        "🇺🇿",
+                        "🌏"
+                    ],
+                    "victoria": "¡Crack! Era Uzbekistán 🇺🇿",
+                    "derrota": "Fallaste Uzbekistán… nadie te culpa 😭"
+                },
+                "islandia": {
+                    "pistas": [
+                        "Es un país MUY frío ❄️",
+                        "Tiene volcanes y géiseres"
+                    ],
+                    "emojis": [
+                        "🇮🇸",
+                        "🌋"
+                    ],
+                    "victoria": "¡Frío pero seguro! Islandia 🇮🇸",
+                    "derrota": "Islandia te congeló el cerebro 😭"
+                },
+                "bhutan": {
+                    "pistas": [
+                        "Es un reino en Asia",
+                        "Famoso por medir la felicidad"
+                    ],
+                    "emojis": [
+                        "🇧🇹",
+                        "😊"
+                    ],
+                    "victoria": "¡Durísimo! Era Bután 🇧🇹",
+                    "derrota": "Bután… no te dio felicidad hoy 😭"
+                },
+                "mongolia": {
+                    "pistas": [
+                        "Es tierra de antiguos guerreros",
+                        "Su capital es Ulán Bator"
+                    ],
+                    "emojis": [
+                        "🇲🇳",
+                        "🏹"
+                    ],
+                    "victoria": "¡Pulento! Era Mongolia 🇲🇳",
+                    "derrota": "Fallaste Mongolia… Genghis Khan te juzga 😭"
+                }
+            }
+        }
+    }
+}
