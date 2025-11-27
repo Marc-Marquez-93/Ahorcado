@@ -8,7 +8,7 @@
                 <h2>Bienvenido!!!, no dejes que el tiempo te gane y adivina la palabra. Dale al boton 👀</h2>
             </div>
             
-            <q-btn color="purple" label="categoria" to="/categoria" /><br>
+            <q-btn color="purple" label="Jugar" to="/categoria" /><br>
         </div>
     </div>
 </template>
