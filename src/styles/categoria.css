@@ -1,3 +1,20 @@
 h1{
     color:red;
 }
+
+#container{
+    min-height: 100vh;
+    background: linear-gradient(to right, rgb(98, 183, 233), rgb(120, 111, 241));
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#dad{
+     background-color: rgba(207, 95, 252, 0.5);
+     min-width: 300px;
+     padding: 15px;
+     box-sizing: border-box;
+     box-shadow: 0 0 15px white;
+     border-radius: 8px;
+}

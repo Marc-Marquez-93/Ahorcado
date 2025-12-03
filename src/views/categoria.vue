@@ -4,10 +4,12 @@ import categoriaJS from "../composables/categoria.js"
 </script>
 
 <template>
-    <div>
-        <h1>hola, soy categoria</h1>
+    <div id="container">
 
-        <q-btn color="primary" label="nivel" to="/nivel" /><br>
+        <div id="dad">
+            <q-btn color="primary" label="nivel" to="/nivel" /><br>
+        </div>
+
     </div>
 </template>
 
