@@ -7,7 +7,7 @@ import juegoJS from "../composables/juego.js"
     <div>
         <h1>hola, soy juego</h1>
 
-        <q-btn color="primary" label="tiempos" to="/tiempos" /><br></br>
+        <q-btn color="primary" label="tiempos" to="/tiempos" /><br>
     </div>
 </template>
 

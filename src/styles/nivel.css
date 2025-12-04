@@ -1,3 +1,94 @@
-h1{
-    color: green;
+h1 {
+  color: rgb(244, 207, 23);
+  text-align: center;
+  font-size: 4.5em;
+}
+
+#container {
+  min-height: 100vh;
+  background: linear-gradient(to right, rgb(98, 183, 233), rgb(120, 111, 241));
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#dad {
+  background-color: rgba(207, 95, 252, 0.5);
+  min-width: 300px;
+  padding: 15px;
+  box-sizing: border-box;
+  box-shadow: 0 0 15px white;
+  border-radius: 8px;
+  min-width: 320px;
+  width: 70%;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1em; /* más espacio proporcional */
+  width: 100%;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2em; /* más grande con em */
+  color: #fff; /* texto blanco para contraste */
+  padding: 0.6em 0.8em;
+  background: rgb(244, 207, 23); /* fondo más oscuro */
+  border-radius: 4px;
+}
+
+.card-content p {
+  text-align: center;
+  font-size: 1.6em; /* reglas más grandes */
+  margin-top: 0.5em;
+  color: #222;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 100%;
+  max-width: 100%;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  cursor: pointer;
+  user-select: none;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.card:active {
+  transform: scale(0.92);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 900px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
 }

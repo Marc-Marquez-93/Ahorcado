@@ -20,7 +20,6 @@ const categoria = {
       data.push(registro);
       localStorage.setItem("categorias", JSON.stringify(data));
 
-      console.log("Array de categorias en localStorage:", data);
     } catch (error) {
       console.error("Error en selectCategoria:", error);
     }
