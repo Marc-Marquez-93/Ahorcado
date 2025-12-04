@@ -22,6 +22,7 @@ const handleCardClick = (nombre, id) => {
 <template>
   <div id="container">
     <div id="dad">
+      <h1>Selecciona tu categoría</h1>
       <div class="card-grid">
         <div
           class="card"
