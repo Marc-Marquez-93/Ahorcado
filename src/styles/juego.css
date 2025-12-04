@@ -1,3 +1,70 @@
-h1{
-    color:yellow;
+h1 {
+  color: rgb(244, 207, 23);
+  text-align: center;
+  font-size: 4.5em;
+}
+
+#container {
+  min-height: 100vh;
+  background: linear-gradient(to right, rgb(98, 183, 233), rgb(120, 111, 241));
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#dad {
+  background-color: rgba(207, 95, 252, 0.5);
+  min-width: 300px;
+  padding: 15px;
+  box-sizing: border-box;
+  box-shadow: 0 0 15px white;
+  border-radius: 8px;
+  min-width: 320px;
+  width: 70%;
+  text-align: center;
+}
+
+#teclado {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(207, 95, 252, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.tecla-grid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr); /* 9 columnas exactas */
+  gap: 10px;
+}
+
+.tecla {
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  font-size: clamp(0.9rem, 2.5vw, 1.2rem); /* escala y reduce en móvil */
+  font-weight: bold;
+  cursor: pointer;
+  padding: clamp(6px, 1.8vw, 10px);       /* padding responsive */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tecla:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.tecla:active {
+  transform: scale(0.92);
+}
+
+@media (max-width: 600px) {
+  .tecla-grid {
+    gap: 6px;
+  }
+  .tecla {
+    font-size: 0.9rem; 
+    padding: 6px;       
+  }
 }
