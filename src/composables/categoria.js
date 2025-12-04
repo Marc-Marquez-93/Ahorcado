@@ -1,16 +1,29 @@
-import { ref } from "vue";
-
 const categoria = {
-  useAhorcado: async () => {
-    
-  },
+  /**
+   * Método para manejar selección de categoría
+   * @param {String} nombre - nombre de la categoría (ej: "Animales")
+   * @param {Number} id - id incremental de la selección
+   */
+  selectCategoria: (nombre, id) => {
+    try {
+      let data;
+      try {
+        const raw = localStorage.getItem("categorias");
+        data = raw ? JSON.parse(raw) : [];
+        if (!Array.isArray(data)) data = [];
+      } catch (e) {
+        console.warn("Error parseando localStorage, se reinicia:", e);
+        data = [];
+      }
 
-  useFrutas: async () => {
+      const registro = { categoria: nombre, id };
+      data.push(registro);
+      localStorage.setItem("categorias", JSON.stringify(data));
 
-  },
-
-  useConfig: async () => {
-   
+      console.log("Array de categorias en localStorage:", data);
+    } catch (error) {
+      console.error("Error en selectCategoria:", error);
+    }
   },
 };
 
