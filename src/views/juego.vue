@@ -53,13 +53,10 @@ const letrasOcultas = computed(() => {
   return palabra.map((char, index) => {
     if (char === " ") return " ";
 
-    // 1. ¿Fue revelada al inicio?
     if (letrasReveladas.value.includes(index)) return char;
 
-    // 2. ¿El usuario adivinó esta letra?
     if (letras.value.includes(char)) return char;
 
-    // 3. Si no: se oculta
     return "_";
   });
 });
