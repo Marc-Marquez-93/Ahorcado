@@ -52,9 +52,18 @@ const letrasOcultas = computed(() => {
 
   return palabra.map((char, index) => {
     if (char === " ") return " ";
-    return letrasReveladas.value.includes(index) ? char : "_";
+
+    // 1. ¿Fue revelada al inicio?
+    if (letrasReveladas.value.includes(index)) return char;
+
+    // 2. ¿El usuario adivinó esta letra?
+    if (letras.value.includes(char)) return char;
+
+    // 3. Si no: se oculta
+    return "_";
   });
 });
+
 
 const seleccionadas = computed(() => letras.value);
 </script>
@@ -90,4 +99,4 @@ const seleccionadas = computed(() => letras.value);
   </div>
 </template>
 
-<style scoped src="../styles/juego.css"></style>
+<style scoped src="../styles/juego.css"></style> 
