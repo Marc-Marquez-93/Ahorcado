@@ -16,14 +16,12 @@ const juego = {
   useAhorcado: async () => {
     try {
       const rawNiveles = localStorage.getItem("niveles");
-      console.log("🔍 Niveles en localStorage:", rawNiveles);
       if (!rawNiveles) {
         console.warn("⚠️ No hay niveles en localStorage");
         return;
       }
 
       const niveles = JSON.parse(rawNiveles);
-      console.log("📂 Niveles parseados:", niveles);
 
       const categoriaSeleccionada = niveles.find(n => n.categoria)?.categoria.toLowerCase();
       const nivelSeleccionado = niveles.find(n => n.nivel)?.nivel;
@@ -33,9 +31,9 @@ const juego = {
       }
 
       const nivelKey = nivelSeleccionado.includes("Fácil") ? "facil"
-                      : nivelSeleccionado.includes("Normal") ? "normal"
-                      : nivelSeleccionado.includes("Difícil") ? "dificil"
-                      : null;
+        : nivelSeleccionado.includes("Normal") ? "normal"
+          : nivelSeleccionado.includes("Difícil") ? "dificil"
+            : null;
 
       if (!nivelKey) {
         console.warn("⚠️ Nivel no reconocido:", nivelSeleccionado);
@@ -49,9 +47,17 @@ const juego = {
         return;
       }
 
-      console.log("📚 Palabras encontradas:", palabras);
+      const keys = Object.keys(palabras);
+      const randomKey = keys[Math.floor(Math.random() * keys.length)];
 
-      return palabras;
+      const palabraFinal = palabras[randomKey];
+      const arrayPalabra = {
+        palabra: randomKey,
+        data: palabraFinal
+      };
+
+      return arrayPalabra;
+
     } catch (error) {
       console.error("❌ Error en useAhorcado:", error);
     }
