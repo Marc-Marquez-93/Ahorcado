@@ -90,7 +90,7 @@
         },
         "normal": {
             "palabras": {
-                "maracuyá": {
+                "maracuya": {
                     "pistas": [
                         "Tiene muchas semillas negras",
                         "Es muy aromática",
@@ -166,7 +166,7 @@
         },
         "dificil": {
             "palabras": {
-                "guanábana": {
+                "guanabana": {
                     "pistas": [
                         "Es grande y verde con espinas",
                         "Pulpa blanca y fibrosa"
@@ -300,7 +300,7 @@
                     "victoria": "¡Correcto! Era James 💛💙❤️",
                     "derrota": "¿James? Nooo hermano… eso sí dolió 🇨🇴😢"
                 },
-                "serena_williams": {
+                "serena williams": {
                     "pistas": [
                         "Leyenda del tenis 🎾",
                         "Una de las atletas más dominantes",
@@ -581,7 +581,7 @@
                     "victoria": "¡Bien jugado! Era tortuga 🐢",
                     "derrota": "Ni la tortuga tan lenta pudiste alcanzar 😭"
                 },
-                "búho": {
+                "buho": {
                     "pistas": [
                         "Es nocturno 🦉",
                         "Tiene ojos grandes",
@@ -1049,7 +1049,7 @@
                     "victoria": "¡Esooo! Vivir Mi Vida 💃",
                     "derrota": "Ni Marc Anthony te pudo ayudar 😭"
                 },
-                "la rebelión": {
+                "la rebelion": {
                     "pistas": [
                         "Clásico de Joe Arroyo",
                         "Muy famosa en Colombia",
