@@ -29,7 +29,6 @@ const nivel = {
 
       localStorage.setItem("niveles", JSON.stringify(combinado));
 
-      console.log("Array de niveles en localStorage:", combinado);
     } catch (error) {
       console.error("Error en selectNivel:", error);
     }

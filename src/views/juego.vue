@@ -15,9 +15,9 @@ const handleTeclaClick = (letra) => {
   letras.value.push(letra);
 };
 
-// probar la función al montar el componente
+
 onMounted(async () => {
-  await juego.useAhorcado(); // esto mostrará en consola las palabras del JSON
+  await juego.useAhorcado(); 
 });
 
 computed(() => {

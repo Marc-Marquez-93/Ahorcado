@@ -15,28 +15,26 @@ const json = ref([]);
 const juego = {
   useAhorcado: async () => {
     try {
-      // Recuperar niveles del localStorage
       const rawNiveles = localStorage.getItem("niveles");
+      console.log("🔍 Niveles en localStorage:", rawNiveles);
       if (!rawNiveles) {
         console.warn("⚠️ No hay niveles en localStorage");
         return;
       }
 
       const niveles = JSON.parse(rawNiveles);
+      console.log("📂 Niveles parseados:", niveles);
 
-      // Extraer categoría y nivel seleccionados
-      const categoriaSeleccionada = niveles.find(n => n.categoria)?.categoria;
+      const categoriaSeleccionada = niveles.find(n => n.categoria)?.categoria.toLowerCase();
       const nivelSeleccionado = niveles.find(n => n.nivel)?.nivel;
-
       if (!categoriaSeleccionada || !nivelSeleccionado) {
         console.warn("⚠️ No se encontró categoría o nivel en localStorage");
         return;
       }
 
-      // Normalizar nombres (ej: "Fácil 😊" → "facil")
-      const nivelKey = nivelSeleccionado.toLowerCase().includes("fácil") ? "facil"
-                      : nivelSeleccionado.toLowerCase().includes("normal") ? "normal"
-                      : nivelSeleccionado.toLowerCase().includes("difícil") ? "dificil"
+      const nivelKey = nivelSeleccionado.includes("Fácil") ? "facil"
+                      : nivelSeleccionado.includes("Normal") ? "normal"
+                      : nivelSeleccionado.includes("Difícil") ? "dificil"
                       : null;
 
       if (!nivelKey) {
@@ -44,7 +42,6 @@ const juego = {
         return;
       }
 
-      // Buscar dentro del JSON
       const palabras = json.value?.[categoriaSeleccionada]?.[nivelKey]?.palabras;
 
       if (!palabras) {
@@ -52,7 +49,6 @@ const juego = {
         return;
       }
 
-      // Mostrar en consola
       console.log("📚 Palabras encontradas:", palabras);
 
       return palabras;
@@ -62,11 +58,10 @@ const juego = {
   },
 
   useFrutas: async () => {
-    // Aquí podrías hacer algo específico para frutas si lo necesitas
+
   },
 
   useConfig: async () => {
-    // Configuración general
   },
 };
 
