@@ -81,6 +81,22 @@ h1 {
   box-sizing: border-box;
 }
 
+.nombre {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 15px;
+  width: 50%;
+  cursor: pointer;
+  display: grid;
+  justify-self: center;
+  margin-bottom: 15px;
+}
+.centro {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
 @media (max-width: 900px) {
   .card-grid {
     grid-template-columns: repeat(2, 1fr);

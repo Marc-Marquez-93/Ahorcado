@@ -30,6 +30,8 @@ computed(() => {
   <div id="container">
     <div id="dad">
       <h1>Selecciona una letra</h1>
+        <q-btn color="primary" label="tiempos" to="/tiempos" /><br>
+
 
       <div id="teclado">
         <div class="tecla-grid">

@@ -1,10 +1,5 @@
 const nivel = {
-  /**
-   * Guarda el nivel seleccionado junto con la última categoría
-   * en un mismo array dentro de localStorage bajo la clave "niveles"
-   * @param {String} nombreNivel - nombre del nivel (ej: "Fácil 😊")
-   */
-  selectNivel: (nombreNivel) => {
+  selectNivel: (nombreNivel, jugador) => {
     try {
       const rawCategorias = localStorage.getItem("categorias");
       let categorias = rawCategorias ? JSON.parse(rawCategorias) : [];
@@ -16,23 +11,37 @@ const nivel = {
         return;
       }
 
-
       let idNivel = 0;
       if (nombreNivel.includes("Fácil")) idNivel = 1;
       else if (nombreNivel.includes("Normal")) idNivel = 2;
       else if (nombreNivel.includes("Difícil")) idNivel = 3;
 
-      const registroCategoria = { categoria: ultimaCategoria.categoria, id: ultimaCategoria.id };
-      const registroNivel = { nivel: nombreNivel, id: idNivel };
+      const registroCategoria = {
+        categoria: ultimaCategoria.categoria,
+        id: ultimaCategoria.id
+      };
 
-      const combinado = [registroCategoria, registroNivel];
+      const registroNivel = {
+        nivel: nombreNivel,
+        id: idNivel
+      };
+
+      const registroJugador = {
+        jugador: jugador
+      };
+
+      const combinado = [
+        registroCategoria,
+        registroNivel,
+        registroJugador
+      ];
 
       localStorage.setItem("niveles", JSON.stringify(combinado));
 
     } catch (error) {
       console.error("Error en selectNivel:", error);
     }
-  },
+  }
 };
 
 export default nivel;
