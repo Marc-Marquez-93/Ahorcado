@@ -110,7 +110,11 @@ h1 {
   width: 20px;
 }
 
-
+.tecla,
+.letra-tecla,
+.letra-cuadro {
+  user-select: none;
+}
 
 @media (max-width: 600px) {
   .tecla-grid {
