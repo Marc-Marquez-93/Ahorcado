@@ -65,8 +65,6 @@ const letrasOcultas = computed(() => {
 const seleccionadas = computed(() => letras.value);
 </script>
 
-
-
 <template>
   <div id="container">
     <div id="dad">
