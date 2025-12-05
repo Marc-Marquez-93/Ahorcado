@@ -2,6 +2,7 @@ h1 {
   color: rgb(244, 207, 23);
   text-align: center;
   font-size: 4.5em;
+  margin: 0;
 }
 
 #container {
@@ -22,6 +23,7 @@ h1 {
   min-width: 320px;
   width: 70%;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 #teclado {
@@ -34,7 +36,7 @@ h1 {
 
 .tecla-grid {
   display: grid;
-  grid-template-columns: repeat(9, 1fr); /* 9 columnas exactas */
+  grid-template-columns: repeat(9, 1fr); 
   gap: 10px;
 }
 
@@ -43,10 +45,10 @@ h1 {
   border: none;
   border-radius: 6px;
   box-shadow: 0 0 5px rgba(0,0,0,0.2);
-  font-size: clamp(0.9rem, 2.5vw, 1.2rem); /* escala y reduce en móvil */
+  font-size: clamp(0.9rem, 2.5vw, 1.2rem); 
   font-weight: bold;
   cursor: pointer;
-  padding: clamp(6px, 1.8vw, 10px);       /* padding responsive */
+  padding: clamp(6px, 1.8vw, 10px);      
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -58,6 +60,57 @@ h1 {
 .tecla:active {
   transform: scale(0.92);
 }
+
+.palabra-linea {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.letra-cuadro {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  margin-right: 6px;
+  border-radius: 8px;
+}
+
+.espacio {
+  border: none !important;
+}
+
+.palabra-horizontal {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.letra-tecla {
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  font-size: clamp(0.9rem, 2.5vw, 1.2rem);
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.letra-tecla.espacio {
+  background: transparent !important;
+  box-shadow: none !important;
+  width: 20px;
+}
+
+
 
 @media (max-width: 600px) {
   .tecla-grid {
