@@ -60,6 +60,16 @@ const fallar = () => {
   }
 };
 
+const relojClass = computed(() => {
+  if (!contador.value?.formato) return "reloj";
+
+  const partes = contador.value.formato.split(":");
+  const seg = parseInt(partes[1]);
+
+  return seg <= 10 ? "relojPeligro" : "reloj";
+});
+
+
 onMounted(async () => {
   palabraSecreta.value = await juego.useAhorcado();
   generarLetrasReveladas();
@@ -78,7 +88,7 @@ onMounted(async () => {
 
       <h1 v-if="palabraSecreta">Adivina la palabra:</h1>
 
-      <h2>{{ contador?.formato }}</h2>
+      <h2 class="reloj" :class="relojClass">{{ contador?.formato }}</h2>
 
       <div id="ahorcado">
         <img class="iii" :src="imgAhorcado" />

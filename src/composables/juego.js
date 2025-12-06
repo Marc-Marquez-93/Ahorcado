@@ -25,9 +25,9 @@ const juego = {
 
       const nivelKey =
         nivel.includes("Fácil") ? "facil" :
-        nivel.includes("Normal") ? "normal" :
-        nivel.includes("Difícil") ? "dificil" :
-        null;
+          nivel.includes("Normal") ? "normal" :
+            nivel.includes("Difícil") ? "dificil" :
+              null;
 
       if (!nivelKey) return;
 
@@ -51,21 +51,30 @@ const juego = {
 
   useContador: async (nivel) => {
     const tiempo = ref(0);
+    const relojClass = ref("");
     let interval = null;
 
     await Promise.resolve();
 
     tiempo.value =
       nivel.includes("Fácil") ? 180 :
-      nivel.includes("Normal") ? 120 :
-      nivel.includes("Difícil") ? 60 :
-      60;
+        nivel.includes("Normal") ? 120 :
+          nivel.includes("Difícil") ? 60 :
+            60;
 
     const iniciar = () => {
       if (interval) return;
       interval = setInterval(() => {
-        if (tiempo.value > 0) tiempo.value--;
-        else {
+        if (tiempo.value > 0) {
+          tiempo.value--;
+
+          if (tiempo.value <= 10) {
+            relojClass.value = "peligro";
+          } else {
+            relojClass.value = "";
+          }
+
+        } else {
           clearInterval(interval);
           interval = null;
         }
@@ -83,7 +92,7 @@ const juego = {
       return `${m}:${s}`;
     });
 
-    return { tiempo, formato, iniciar, detener };
+    return { tiempo, formato, iniciar, detener, relojClass };
   },
 
   useConfig: async () => { }

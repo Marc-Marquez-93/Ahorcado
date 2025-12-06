@@ -11,9 +11,9 @@ const dense = ref(false);
 const nombreGuardado = ref(false); 
 
 const niveles = [
-  { nombreAD: "Fácil 😊", nombre: "Fácil", reglas: "3 minutos ⏱️ · 6 pistas 💡" },
-  { nombreAD: "Normal 😎", nombre: "Normal", reglas: "2 minutos ⏱️ · 4 pistas 💡" },
-  { nombreAD: "Difícil 🔥", nombre: "Difícil", reglas: "1 minuto ⏱️ · 2 pistas 💡" },
+  { nombreAD: "Fácil 😊", nombre: "Fácil", reglas: "3 minutos ⏱️ · 6 pistas 💡 · 12 intentos ❌" },
+  { nombreAD: "Normal 😎", nombre: "Normal", reglas: "2 minutos ⏱️ · 4 pistas 💡 · 8 intentos ❌" },
+  { nombreAD: "Difícil 🔥", nombre: "Difícil", reglas: "1 minuto ⏱️ · 2 pistas 💡 · 5 intentos ❌" },
 ];
 
 const guardarNombre = () => {
