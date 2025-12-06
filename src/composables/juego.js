@@ -1,4 +1,4 @@
-import { ref } from "vue";
+import { ref, computed } from "vue";
 
 const json = ref([]);
 
@@ -6,9 +6,8 @@ const json = ref([]);
   try {
     const data = await import("../data/palabras.json");
     json.value = data.default ?? data;
-    console.log("✅ JSON precargado:", json.value);
   } catch (error) {
-    console.error("❌ Error cargando el JSON:", error);
+    console.error("Error cargando JSON:", error);
   }
 })();
 
@@ -16,59 +15,78 @@ const juego = {
   useAhorcado: async () => {
     try {
       const rawNiveles = localStorage.getItem("niveles");
-      if (!rawNiveles) {
-        console.warn("⚠️ No hay niveles en localStorage");
-        return;
-      }
+      if (!rawNiveles) return;
 
       const niveles = JSON.parse(rawNiveles);
 
-      const categoriaSeleccionada = niveles.find(n => n.categoria)?.categoria.toLowerCase();
-      const nivelSeleccionado = niveles.find(n => n.nivel)?.nivel;
-      if (!categoriaSeleccionada || !nivelSeleccionado) {
-        console.warn("⚠️ No se encontró categoría o nivel en localStorage");
-        return;
-      }
+      const categoria = niveles.find(n => n.categoria)?.categoria?.toLowerCase();
+      const nivel = niveles.find(n => n.nivel)?.nivel;
+      if (!categoria || !nivel) return;
 
-      const nivelKey = nivelSeleccionado.includes("Fácil") ? "facil"
-        : nivelSeleccionado.includes("Normal") ? "normal"
-          : nivelSeleccionado.includes("Difícil") ? "dificil"
-            : null;
+      const nivelKey =
+        nivel.includes("Fácil") ? "facil" :
+        nivel.includes("Normal") ? "normal" :
+        nivel.includes("Difícil") ? "dificil" :
+        null;
 
-      if (!nivelKey) {
-        console.warn("⚠️ Nivel no reconocido:", nivelSeleccionado);
-        return;
-      }
+      if (!nivelKey) return;
 
-      const palabras = json.value?.[categoriaSeleccionada]?.[nivelKey]?.palabras;
-
-      if (!palabras) {
-        console.warn("⚠️ No se encontraron palabras para", categoriaSeleccionada, nivelKey);
-        return;
-      }
+      const palabras = json.value?.[categoria]?.[nivelKey]?.palabras;
+      if (!palabras) return;
 
       const keys = Object.keys(palabras);
       const randomKey = keys[Math.floor(Math.random() * keys.length)];
+      const palabra = palabras[randomKey];
 
-      const palabraFinal = palabras[randomKey];
-      const arrayPalabra = {
+      return {
         palabra: randomKey,
-        data: palabraFinal
+        data: palabra,
+        nivel,
+        categoria
       };
-
-      return arrayPalabra;
-
     } catch (error) {
-      console.error("❌ Error en useAhorcado:", error);
+      console.error("Error en useAhorcado:", error);
     }
   },
 
-  useFrutas: async () => {
+  useContador: async (nivel) => {
+    const tiempo = ref(0);
+    let interval = null;
 
+    await Promise.resolve();
+
+    tiempo.value =
+      nivel.includes("Fácil") ? 180 :
+      nivel.includes("Normal") ? 120 :
+      nivel.includes("Difícil") ? 60 :
+      60;
+
+    const iniciar = () => {
+      if (interval) return;
+      interval = setInterval(() => {
+        if (tiempo.value > 0) tiempo.value--;
+        else {
+          clearInterval(interval);
+          interval = null;
+        }
+      }, 1000);
+    };
+
+    const detener = () => {
+      clearInterval(interval);
+      interval = null;
+    };
+
+    const formato = computed(() => {
+      const m = String(Math.floor(tiempo.value / 60)).padStart(2, "0");
+      const s = String(tiempo.value % 60).padStart(2, "0");
+      return `${m}:${s}`;
+    });
+
+    return { tiempo, formato, iniciar, detener };
   },
 
-  useConfig: async () => {
-  },
+  useConfig: async () => { }
 };
 
 export { json };
