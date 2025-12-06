@@ -80,6 +80,7 @@ const handleNivelClick = (nivel) => {
             placeholder="Escribe tu nombre" 
             hint="¿Cómo te llamás?" 
             :dense="dense" 
+            @keyup.enter="guardarNombre"
           />
           <q-btn 
             color="primary" 
