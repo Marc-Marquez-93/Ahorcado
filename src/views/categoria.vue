@@ -8,7 +8,7 @@ const imagenes = [
   { nombre: "Animales", src: new URL("../assets/imgs/animales.jpg", import.meta.url).href },
   { nombre: "Canciones", src: new URL("../assets/imgs/canciones.jpg", import.meta.url).href },
   { nombre: "Deportes", src: new URL("../assets/imgs/deportes.jpg", import.meta.url).href },
-  { nombre: "Física", src: new URL("../assets/imgs/fisica.jpg", import.meta.url).href },
+  { nombre: "Fisica", src: new URL("../assets/imgs/fisica.jpg", import.meta.url).href },
   { nombre: "Frutas", src: new URL("../assets/imgs/frutas.jpg", import.meta.url).href },
   { nombre: "Paises", src: new URL("../assets/imgs/paises.jpg", import.meta.url).href },
 ];
