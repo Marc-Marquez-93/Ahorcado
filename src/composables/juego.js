@@ -1,4 +1,4 @@
-import { ref, computed } from "vue";
+import { ref, computed, watch } from "vue";
 
 const json = ref([]);
 
@@ -18,9 +18,11 @@ const juego = {
       if (!rawNiveles) return;
 
       const niveles = JSON.parse(rawNiveles);
+      
 
       const categoria = niveles.find(n => n.categoria)?.categoria?.toLowerCase();
       const nivel = niveles.find(n => n.nivel)?.nivel;
+      const jugador = niveles.find(n => n.jugador)?.jugador;
       if (!categoria || !nivel) return;
 
       const nivelKey =
@@ -42,7 +44,8 @@ const juego = {
         palabra: randomKey,
         data: palabra,
         nivel,
-        categoria
+        categoria,
+        jugador: jugador || "Anónimo",
       };
     } catch (error) {
       console.error("Error en useAhorcado:", error);
@@ -95,7 +98,7 @@ const juego = {
     return { tiempo, formato, iniciar, detener, relojClass };
   },
 
-  useConfig: async () => { }
+
 };
 
 export { json };
