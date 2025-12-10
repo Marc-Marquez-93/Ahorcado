@@ -250,7 +250,6 @@ onUnmounted(() => {
   <div id="container">
     <div id="dad">
       <div v-show="!isVictory">
-        <q-btn color="primary" label="tiempos" to="/tiempos" />
         <q-btn color="purple" icon="mail" label="pistas" @click="mostrarPista" />
         <h1 v-if="palabraSecreta">Adivina la palabra:</h1>
         <h2 class="reloj" :class="relojClass" v-if="contador">{{ displayFormato }}</h2>
