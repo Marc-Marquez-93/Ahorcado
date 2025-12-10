@@ -19,6 +19,10 @@ const reiniciarTodo = () => {
 
   cargarTiempos(); 
 };
+
+const model = ref(null);
+const options = [ "Fácil", "Medio", "Difícil"];
+
 </script>
 
 
@@ -28,8 +32,11 @@ const reiniciarTodo = () => {
         <div id="dad">
   <h1>Lista de tiempos</h1>
 <div class="botones">
-    <q-btn color="purple" label="Inicio" to="/" /><br>
+    <q-btn color="purple" label="Inicio" to="/" />
+    <q-select outlined v-model="model" :options="options" label="nivel" color="white" label-color="white" bg-color="purple"/>
 <q-btn color="purple" label="reiniciar" @click="reiniciarTodo" />
+  
+
 </div>
 
   <table>
