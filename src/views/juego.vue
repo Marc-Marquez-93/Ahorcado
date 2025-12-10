@@ -2,7 +2,7 @@
 import { ref, computed, onMounted, onUnmounted, watch } from "vue";
 import juego from "../composables/juego.js";
 import { useRouter } from "vue-router";
-import { Dialog, Notify, LocalStorage } from "quasar";
+import { Dialog, Notify} from "quasar";
 
 const router = useRouter();
 
